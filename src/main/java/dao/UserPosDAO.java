@@ -153,6 +153,8 @@ public class UserPosDAO {
 			e.printStackTrace();
 		}
 	}
+	
+	//Deleta o usuario e os registros de telefone por id
 
 	public List<BeanUserFone> listarUserFone(Long idUser) {
 
